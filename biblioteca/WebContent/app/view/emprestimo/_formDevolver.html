@@ -1,0 +1,10 @@
+<div class="alert alert-danger alert-dismissible" role="alert" ng-show="errorMessage">
+  <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+  {{errorMessage}}
+</div>
+
+<div class="form-group">
+  <label>Deseja devolver o livro:  {{emprestimo.livro.titulo}}</label>
+</div>
+
+<button type="submit" class="btn btn-default">Devolver</button>
